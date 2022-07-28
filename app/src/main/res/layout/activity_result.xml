@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DDD0E1"
+    tools:context=".ResultActivity">
+    <ImageView
+        android:id="@+id/img_home"
+        android:layout_width="120px"
+        android:layout_height="wrap_content"
+        android:src="@drawable/star"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:id="@+id/text_result_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="BMI 결과"
+        android:textSize="18sp"
+        android:textColor="#9E7BAE"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/text_result_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="결과 코멘트 자리"
+        android:textSize="18sp"
+        android:textColor="#787198"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/imgV"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bmi_01"/>
+
+</LinearLayout>
